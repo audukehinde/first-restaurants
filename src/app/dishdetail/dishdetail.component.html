@@ -1,0 +1,23 @@
+<div>
+  <div class="inner-card">
+      <div class="card" *ngIf="dish">
+        <h3 class="card-spacing">{{ dish.name | uppercase}}</h3>
+        <img src="{{ dish.image }}" alt="{{ dish.name }}">
+        <p class="card-spacing">{{ dish.description }}</p>
+        <div class="menu-button" >
+          <button class="btn">LIKE</button>
+          <button class="btn">SHARE</button>
+        </div>
+      </div>
+      <div class="card-2" *ngIf="dish">
+        <h2>COMMENTS</h2>
+        <div *ngFor="let comment of dish.comments" class="comment">
+          <p>{{ comment.comment}}</p>
+          <p>{{ comment.rating }} Stars</p>
+          <p>{{ comment.author }} <span>{{ comment.date | date }}</span></p>
+          <hr>
+        </div>
+      </div>
+  </div>
+</div>
+

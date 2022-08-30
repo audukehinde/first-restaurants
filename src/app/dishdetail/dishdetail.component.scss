@@ -1,0 +1,53 @@
+.card {
+  width: 400px;
+  border:1px solid rgb(209, 209, 209);
+  margin: 40px 0;
+}
+
+.card-2 {
+  width: 400px;
+  margin: 40px 0;
+}
+
+.card-2 p {
+  padding: 0;
+  // margin: 0;
+}
+
+.comment p{
+  padding: -20px;
+  margin: 11px;
+}
+
+.inner-card {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.card-spacing {
+  padding: 0 15px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.menu-button {
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(209, 209, 209);
+  font-weight: bold;
+}
+

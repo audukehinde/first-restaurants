@@ -1,7 +1,12 @@
-<div class="container">
-  <div class="menu" *ngFor="let dish of dishes">
-    <img src="{{ dish.image }}" alt="{{dish.name }}">
-    <h1>{{ dish.name }}</h1>
-    <p>{{ dish.description }}</p>
+<div class="main-container">
+  <div class="container">
+    <div class="menu" *ngFor="let dish of dishes" (click)="onSelect(dish)">
+      <img src="{{ dish.image }}" alt="{{ dish.name }}">
+      <h1>{{ dish.name }}</h1>
+    </div>
   </div>
+
+  <app-dishdetail [dish]="selectedDish"></app-dishdetail>
+  
+  
 </div>
