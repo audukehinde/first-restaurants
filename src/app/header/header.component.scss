@@ -1,0 +1,48 @@
+// #512DA8, , #D1C4E9
+
+nav {
+  background-color: #512DA8;
+  color: #fff;
+  padding: 0 20px;
+}
+
+span {
+  font-size: 20px;
+}
+
+ul {
+  display: inline-flex;
+}
+
+ul li {
+  list-style: none;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  background-color: #9575CD;
+}
+
+.conatiner {
+  background-color: #9575CD;
+  color: #fff;
+  height: 50vh;
+  padding: 30px 0  20px 20px;
+}
+
+.conatiner h1 {
+  font-size: 45px;
+}
+
+.showcase-detail p {
+  font-size: 27px;
+  width: 57%;
+  line-height: 1.5;
+}
+

@@ -1,0 +1,22 @@
+footer {
+  margin-top: 70px;
+  height: 35vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+ h3 {
+  text-decoration: underline;
+  margin-bottom: 20px;
+ }

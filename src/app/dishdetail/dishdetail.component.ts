@@ -14,7 +14,6 @@ export class DishdetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.dish.comments)
   }
 
 }
