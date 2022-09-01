@@ -1,12 +1,12 @@
 <div class="main-container">
   <div class="container">
-    <div class="menu" *ngFor="let dish of dishes" (click)="onSelect(dish)">
+    <div class="menu" *ngFor="let dish of dishes" [routerLink]="['/dishdetail', dish.id]">
       <img src="{{ dish.image }}" alt="{{ dish.name }}">
       <h1>{{ dish.name }}</h1>
     </div>
   </div>
 
-  <app-dishdetail [dish]="selectedDish"></app-dishdetail>
+  <!-- <app-dishdetail [dish]="selectedDish"></app-dishdetail> -->
   
   
 </div>

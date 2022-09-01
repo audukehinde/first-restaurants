@@ -5,6 +5,7 @@
         <img src="{{ dish.image }}" alt="{{ dish.name }}">
         <p class="card-spacing">{{ dish.description }}</p>
         <div class="menu-button" >
+          <button class="btn" (click)="goBack()">Back</button>
           <button class="btn">LIKE</button>
           <button class="btn">SHARE</button>
         </div>

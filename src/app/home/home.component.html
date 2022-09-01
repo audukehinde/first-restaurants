@@ -1,1 +1,15 @@
-<p>home works!</p>
+<div class="inner-card">
+  <div class="card" *ngIf="dish">
+    <h3>{{ dish.name | uppercase}}</h3>
+    <img src="{{ dish.image }}" alt="{{ dish.name }}">
+    <p class="card-spacing">{{ dish.description }}</p>
+  </div>
+  <div class="card" *ngIf="promotion">
+    <!-- <h2>COMMENTS</h2> -->
+    <div>
+      <h3>{{ promotion.name | uppercase}}</h3>
+      <img src="{{ promotion.image }}" alt="{{ promotion.name }}">
+      <p>{{ promotion.description }} </p>
+    </div>
+  </div>
+</div>
